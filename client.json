@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LittleLittleCloud/Agent-ChatRoom/main/schema/client_configuration_schema.json",
+    "name": "User",
+    "room_config": {
+        "port": 30000,
+        "room": "powershell"
+    },
+    "channel_config": {
+        "use_aoai": false,
+        "openai_model_id": "gpt-3.5-turbo",
+        "openai_api_key": "your-openai-api-key"
+    },
+    "agent_extensions": [
+        {
+            "name": "powershell",
+            "command": "dotnet chatroom-powershell -c powershell.json -r powershell"
+        }
+    ]
+}
