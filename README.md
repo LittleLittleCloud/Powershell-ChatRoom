@@ -12,15 +12,9 @@ This repo contains the quick-start configuration for powershell agents.
 dotnet tool restore
 ```
 
-3. Run the following command to start the chatroom
+3. Replace the `openai-api-key` in both [client.json](client.json) and [server.json](powershell.json) with your own OpenAI API key.
 
-```bash
-dotnet chatroom -c client.json
-```
-
-4. Replace the `openai-api-key` in both [client.json](client.json) and [server.json](powershell.json) with your own OpenAI API key.
-
-5. Start chatting with powershell agents in the `General` channel!
+4. Start chatting with powershell agents in the `General` channel!
 
 ```bash
 dotnet chatroom -c client.json
