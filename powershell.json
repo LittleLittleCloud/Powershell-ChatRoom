@@ -1,9 +1,10 @@
 {
     "$schema": "https://raw.githubusercontent.com/LittleLittleCloud/Agent-ChatRoom/main/schema/chatroom_powershell_configuration_schema.json",
     "gpt": {
-        "llm_type": 1,
-        "openai_model_id": "gpt-3.5-turbo",
-        "openai_api_key": "your-api-key"
+        "openai_config": {
+            "llm_type": "OpenAI",
+            "openai_model_id": "gpt-3.5-turbo"
+        }
     },
     "runner": {
         "last_n_message": 10

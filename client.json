@@ -6,9 +6,10 @@
         "room": "powershell"
     },
     "channel_config": {
-        "use_aoai": false,
-        "openai_model_id": "gpt-3.5-turbo",
-        "openai_api_key": "your-openai-api-key"
+        "openai_config": {
+            "llm_type": "OpenAI",
+            "openai_model_id": "gpt-3.5-turbo"
+        }
     },
     "agent_extensions": [
         {

@@ -1,0 +1,35 @@
+{
+  "type": "ChatRoomContextSchemaV0",
+  "channels": {
+    "General": [
+      "User",
+      "ps-gpt",
+      "ps-runner"
+    ]
+  },
+  "chat_history": {
+    "General": [
+      {
+        "From": "User",
+        "Created": "2024-05-31T23:27:57.5143516-07:00",
+        "Text": "switch to light mode"
+      },
+      {
+        "From": "ps-gpt",
+        "Created": "2024-05-31T23:27:59.4744703-07:00",
+        "Text": "\u0060\u0060\u0060pwsh\n# Set the registry key for light mode\nSet-ItemProperty -Path \u0022HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize\u0022 -Name \u0022AppsUseLightTheme\u0022 -Value 1\n\nWrite-Host \u0022Switched to light mode.\u0022\n\u0060\u0060\u0060"
+      },
+      {
+        "From": "User",
+        "Created": "2024-05-31T23:28:00.5790595-07:00",
+        "Text": "run"
+      },
+      {
+        "From": "ps-runner",
+        "Created": "2024-05-31T23:28:01.4838359-07:00",
+        "Text": "[SUCCESS]\r\nSwitched to light mode."
+      }
+    ]
+  },
+  "current_channel": "General"
+}
