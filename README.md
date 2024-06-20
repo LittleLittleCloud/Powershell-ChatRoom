@@ -2,6 +2,8 @@
 
 This repo contains the quick-start configuration for powershell agents.
 
+<img src="asset/switch-theme.gif" alt="drawing" width="100%" align="center"/>
+
 ## Quick Start
 
 1. Clone this repo and navigate to the root directory of the repo.
@@ -20,4 +22,6 @@ dotnet tool restore
 dotnet chatroom -c client.json
 ```
 
-<img src="image.png" alt="drawing" width="80%" align="center"/>
+## Further Reading
+- [Agent ChatRoom](https://github.com/LittleLittleCloud/Agent-ChatRoom)
+- [AutoGen.Net](https://microsoft.github.io/autogen-for-net/)
