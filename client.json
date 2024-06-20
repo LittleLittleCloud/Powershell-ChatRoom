@@ -16,5 +16,8 @@
             "name": "powershell",
             "command": "dotnet chatroom-powershell -c powershell.json -r powershell"
         }
-    ]
+    ],
+    "server_config": {
+        "urls": "http://localhost:51237;https://localhost:51238"
+    }
 }
