@@ -1,0 +1,32 @@
+{
+  "type": "ChatRoomContextSchemaV0",
+  "channels": {
+    "General": {
+      "Name": "General",
+      "Members": [
+        {
+          "Name": "User",
+          "SelfDescription": "Human User",
+          "IsHuman": true
+        },
+        {
+          "Name": "ps-gpt",
+          "SelfDescription": "I am PowerShell GPT, I am good at writing powershell scripts.",
+          "IsHuman": false
+        },
+        {
+          "Name": "ps-runner",
+          "SelfDescription": "A powershell script runner",
+          "IsHuman": false
+        }
+      ],
+      "Orchestrators": [
+        "RoundRobin"
+      ]
+    }
+  },
+  "chat_history": {
+    "General": []
+  },
+  "current_channel": "General"
+}
